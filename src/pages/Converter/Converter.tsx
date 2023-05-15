@@ -1,8 +1,8 @@
-import { Card } from '@mui/material';
+import { Grid } from '@mui/material';
 import { ConverterForm } from 'src/components';
 
 export const Converter = (): JSX.Element => (
-  <Card elevation={20} sx={{ height: '100%', p: 5 }}>
+  <Grid item xs={11} sm={7} md={5}>
     <ConverterForm />
-  </Card>
+  </Grid>
 );
